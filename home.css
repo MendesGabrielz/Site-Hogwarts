@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+
+    background-image: url(IMG/hogwarts.jpg);
+    background-size: cover; /* Cobrir a tela inteira */
+    background-position: center; /* Posição da imagem no centro da tela. */
+    background-repeat: no-repeat; /* Faz com que a imagem não se repita, ela quebre e comece outra, por exemplo. */
+    font-family: 'Harry Potter', sans-serif; /* Fonte usada */
+}
+
+a {
+
+    color: inherit; /* Deixa sem cor, por exemplo, no a, o azul do link. */
+    text-decoration: none; /* Deixa o texto sem decoração, por exemplo, no a, o sublinhado do link. */
+}
+
+.container-geral-texto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.container-texto {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1 {
+
+        font-size: 40px;
+        margin: 0px;
+    }
+
+}
+
+#Hogwarts {
+
+    font-size: 75px;
+}
+
+.container-botao {
+
+    a {
+
+        color: white;
+
+    }
+
+}
+
+.container-texto-dois {
+
+    padding: 4px;
+    border: none;
+    border-radius: 13%;
+    background-color: black;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px; /* Espaçamento entre as letras */
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.container-texto-dois h1{
+
+        margin: 21px;
+
+}
+
+.container-texto-dois:hover {
+   transform: translateY(-5px);
+}
